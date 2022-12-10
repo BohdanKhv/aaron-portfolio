@@ -92,7 +92,15 @@ body {
 .cat-img img {
   outline: 2px solid #000;
   width: 100%;
-  box-shadow: 12px 12px 0 #93ff9c;
+}
+
+.cat-img img {
+  transition-duration: var(--transition-duration);
+  cursor: 'pointer';
+}
+
+.cat-img img:hover {
+  box-shadow: 16px 16px 0 #000!important;
 }
 
 @keyframes blink {

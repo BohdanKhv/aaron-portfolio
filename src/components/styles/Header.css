@@ -10,7 +10,16 @@ header {
     text-decoration: none;
 }
 
+.name span:active {
+    box-shadow: 6px 6px 0 #FBEC5D;
+}
+
+.name.active span:hover {
+    box-shadow: 6px 6px 0 #FBEC5D;
+}
+
 .name.active  span {
+    transition-duration: var(--transition-duration);
     background: #000;
     color: #fff;
 }
