@@ -1,10 +1,20 @@
+import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import './styles/Section.css'
 
 const Teaching = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+        window.document.title = "Aaron Lopatin | Teaching"
+    }, [])
+
     return (
         <section className="section" id="teaching">
                 <div className="title bg-2">
-                    // Teaching
+                    <Link to="/teaching">
+                        // Teaching
+                    </Link>
                 </div>
             <div className="container">
                 <div className="content">

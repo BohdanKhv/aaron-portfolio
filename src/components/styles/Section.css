@@ -13,6 +13,15 @@
     user-select: none;
 }
 
+.section .title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.section .title:hover a {
+    color: #fff;
+}
+
 .section span {
     background-color: #fff;
 }

@@ -9,7 +9,6 @@ const Nav = () => {
     <nav className="nav">
       <div className="container">
         <div className={`nav-item${location.pathname === '/publications' ? ' active' : ''}`}>
-          {console.log(location)}
           <Link to="/publications">Publications</Link>
         </div>
         <div className={`nav-item${location.pathname === '/teaching' ? ' active' : ''}`}>

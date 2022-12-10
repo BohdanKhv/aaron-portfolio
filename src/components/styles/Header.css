@@ -11,11 +11,11 @@ header {
 }
 
 .name span:active {
-    box-shadow: 6px 6px 0 #FBEC5D;
+    box-shadow: 6px 6px 0 #ff9c9c;
 }
 
 .name.active span:hover {
-    box-shadow: 6px 6px 0 #FBEC5D;
+    box-shadow: 6px 6px 0 #ff9c9c;
 }
 
 .name.active  span {

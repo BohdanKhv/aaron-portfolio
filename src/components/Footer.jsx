@@ -13,15 +13,20 @@ const Footer = () => {
                         <a href="mailto:
                         ">email.@gmail.com</a>
                     </div>
+                    <div className="footer-item">
+                        <Link to="/cat">
+                            Townes
+                        </Link>
+                    </div>
                 </div>
                 <h5>
                     © Aaron Lopatin
                 </h5>
-            </div>
-            <div className="cat">
-                <Link to="/cat">
-                    <img src="/assets/cat.png" alt="cat" />
-                </Link>
+                <small>
+                    Handcrafted by <a href="https://khvorostovskyi.com" target="_blank" 
+                    rel="noreferrer"
+                    > Bohdan Khvorostovskyi</a>
+                </small>
             </div>
         </div>
     )

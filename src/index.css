@@ -95,12 +95,45 @@ body {
 }
 
 .cat-img img {
+  border-radius: 0.5rem;
   transition-duration: var(--transition-duration);
   cursor: 'pointer';
 }
 
 .cat-img img:hover {
   box-shadow: 16px 16px 0 #000!important;
+}
+
+.cat-img {
+  position: relative;
+  gap: 150px!important;
+  padding: 200px 0!important;
+}
+
+.cat-img-container {
+  position: relative;
+  margin: 0 10%;
+}
+
+.meow {
+  position: absolute;
+  width: 150px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  border-radius: 0.5rem;
+  outline: 2px solid #000;
+  left: -20px;
+  top: -20px;
+  user-select: none;
+}
+
+.meow span {
+  background-color: transparent;
+  color: #000;
+  font-size: 25px;
 }
 
 @keyframes blink {
