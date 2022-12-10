@@ -13,5 +13,5 @@ export {
     About,
     Teaching,
     Honors,
-    Footer
+    Footer,
 }

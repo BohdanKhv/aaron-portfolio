@@ -6,6 +6,16 @@ header {
 .name {
     font-size: 54px;
     text-align: center;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+.name.active  span {
+    background: #000;
+    color: #fff;
+}
+
+.name a {
     text-decoration: none;
 }
 
@@ -33,4 +43,14 @@ header {
     background-color: #fff;
     opacity: 0.8;
     padding-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .name {
+        font-size: 30px;
+    }
+
+    .description span {
+        font-size: 18px;
+    }
 }

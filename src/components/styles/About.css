@@ -1,20 +1,25 @@
 .about {
-    padding:  40px 0;
+    padding:  80px 0;
+    border-top: 2px solid #000;
 }
 
 .about .image img {
     width: 50%;
     height: 50%;
-    object-fit: cover;
+    object-fit: fill;
     object-position: center;
-    outline: 2px solid #000;
-    box-shadow: 6px 6px 0 #000;
+    outline: 4px solid #000;
+    box-shadow: 8px 8px 0 #000;
+    cursor: pointer;
+    transition-duration: var(--transition-duration);
+}
+.about .image img:hover {
+    box-shadow: 12px 12px 0 #FBEC5D;
 }
 .about .image {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
 }
 
 .about .text {
@@ -24,9 +29,16 @@
 }
 
 .about .text span {
+    font-size: 20px;
     text-align: center;
-    max-width: 400px;
+    max-width: 500px;
     background-color: #fff;
     align-items: center;
     width: fit-content;
+}
+
+@media (max-width: 768px) {
+    .about .image img {
+        width: 70%;
+    }
 }

@@ -47,8 +47,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-size: 40px 40px;
-  background-image: radial-gradient(circle, #000000de 1px, rgba(0, 0, 0, 0) 1px);
+  /* background-size: 40px 40px;
+  background-image: radial-gradient(circle, #000000de 1px, rgba(0, 0, 0, 0) 1px); */
   margin: 0;
   font-family: monospace;
   /* font-family: Rubik,sans-serif; */
@@ -89,6 +89,12 @@ body {
   background-color: #ff9c9c;
 }
 
+.cat-img img {
+  outline: 2px solid #000;
+  width: 100%;
+  box-shadow: 12px 12px 0 #93ff9c;
+}
+
 @keyframes blink {
   0% {
     opacity: 0;
@@ -103,6 +109,6 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    padding: 0 8px;
+    padding: 0 20px;
   }
 }
