@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { honors } from '../data'
 import './styles/Section.css'
 
 const Honors = () => {
@@ -18,50 +19,30 @@ const Honors = () => {
             </div>
             <div className="container">
                 <div className="content">
-                    <div className="item">
-                        <div className="item-title">
-                            <span>(semi-finalist) Verse / Tomaž Šalamun Prize, Factory Hollow Press</span>
-                        </div>
-                        <div className="item-content">
-                            <div className="item-content__item">
-                                <span>
-                                    2021
-                                </span>
+                    {honors.map((item,index) => (
+                        <div className="item" key={`${index}-honors`}>
+                            <div className="item-title">
+                                <span>{item.title}</span>
                             </div>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <div className="item-title">
-                            <span>(finalist) Snowbound Chapbook Contest, Tupelo Press</span>
-                        </div>
-                        <div className="item-content">
-                            <div className="item-content__item">
-                                <span>
+                            <div className="item-content">
+                                <div className="item-content__item">
+                                    <span>
+                                        {item.link ? 
+                                        
                                     <a style={{
                                         "--color-custom":"#ff9c9c"
-                                    }} href="https://www.tupelopress.org/2019/06/07/tupelo-press-announces-the-results-of-the-2019-snowbound-chapbook-award/">
-                                        2019
+                                    }} href={item.link}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    >
+                                        {item.content}
                                     </a>
-                                </span>
+                                    : item.content}
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="item">
-                        <div className="item-title">
-                            <span>Editor's Choice, Nat. Brut</span>
-                        </div>
-                        <div className="item-content">
-                            <div className="item-content__item">
-                                <span>
-                                    <a style={{
-                                        "--color-custom":"#ff9c9c"
-                                    }} href="https://www.tupelopress.org/2019/06/07/tupelo-press-announces-the-results-of-the-2019-snowbound-chapbook-award/">
-                                        2019
-                                    </a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </section>
