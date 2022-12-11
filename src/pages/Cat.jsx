@@ -11,7 +11,7 @@ const Cat = () => {
     return (
         <section className="section">
             <div className="title bg-3">
-                // Townes
+                {`// `} TOWNES
             </div>
             <div className="container">
                 <div className="content cat-img">

@@ -14,7 +14,7 @@ const Publication = () => {
         <section className="section" id="publication">
                 <div className="title bg-1">
                     <Link to="/publications">
-                        // Publications
+                        {`//`} PUBLICATIONS
                     </Link>
                 </div>
             <div className="container">

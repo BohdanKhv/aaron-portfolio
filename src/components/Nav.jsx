@@ -9,13 +9,13 @@ const Nav = () => {
     <nav className="nav">
       <div className="container">
         <div className={`nav-item${location.pathname === '/publications' ? ' active' : ''}`}>
-          <Link to="/publications">Publications</Link>
+          <Link to="/publications">PUBLICATIONS</Link>
         </div>
         <div className={`nav-item${location.pathname === '/teaching' ? ' active' : ''}`}>
-          <Link to="/teaching">Teaching</Link>
+          <Link to="/teaching">TEACHING</Link>
         </div>
         <div className={`nav-item${location.pathname === '/honors' ? ' active' : ''}`}>
-          <Link to="/honors">Honors</Link>
+          <Link to="/honors">HONORS</Link>
         </div>
       </div>
     </nav>
