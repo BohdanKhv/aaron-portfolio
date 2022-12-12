@@ -12,7 +12,7 @@ const Publication = () => {
 
     return (
         <section className="section" id="publication">
-                <div className="title bg-1">
+                <div className="title bg-2">
                     <Link to="/publications">
                         {`//`} PUBLICATIONS
                     </Link>
@@ -20,28 +20,28 @@ const Publication = () => {
             <div className="container">
                 <div className="content">
                     {publications.map((item, index) => (
-                    <div className="item" key={`${index}-publication`}>
-                        <div className="item-title">
-                            <span>{item.title}</span>
-                        </div>
-                        <div className="item-content">
-                            <span>
-                                {item.link ? 
-                                    <a 
-                                        style={{
-                                            "--color-custom": "#FBEC5D"
-                                        }}
-                                    href={item.link} className="item-content__item"
-                                    target="_blank"
-                                    rel="noreferrer">
+                        <div className={`item${item.link ? ' item-hover' : ''}`}
+                            key={`${index}-publication`}
+                            style={{
+                                "--color-custom":"#93ff9c"
+                            }} >
+                            <a href={item.link}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div className="item-title">
+                                    <span>{item.title}</span>
+                                </div>
+                                <div className="item-content">
+                                    <span>
                                         {item.content}
-                                    </a>
-                                :
-                                    item.content
-                                }
-                            </span>
+                                    </span>
+                                    {item.link &&
+                                    <small>click</small>
+                                    }
+                                </div>
+                            </a>
                         </div>
-                    </div>
                     ))}
                 </div>
             </div>

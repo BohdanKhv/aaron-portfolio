@@ -12,7 +12,7 @@ const Teaching = () => {
 
     return (
         <section className="section" id="teaching">
-                <div className="title bg-2">
+                <div className="title bg-1">
                     <Link to="/teaching">
                         {`//`} TEACHING
                     </Link>
@@ -20,7 +20,10 @@ const Teaching = () => {
             <div className="container">
                 <div className="content">
                     { teaching.map((item, index) => (
-                        <div className="item" key={`${index}-teaching`}>
+                        <div className="item" key={`${index}-teaching`}
+                            style={{
+                                "--color-custom":"#FBEC5D"
+                            }} >
                             <div className="item-title">
                                 <span>{item.title}</span>
                             </div>

@@ -1,7 +1,13 @@
 const publications = [
     {
+        title: "Variations in a trapped expanse",
+        link: "https://www.interimpoetics.org/392-2",
+        content: "The Interim"
+    },
+    {
         title: "Colorado Review",
-        content: '“Wren Song #2” (Forthcoming)'
+        link: "https://coloradoreview.colostate.edu/books/colorado-review-spring-2022/",
+        content: 'Wren Song #2 (Forthcoming)'
     },
     {
         title: "Apartment Poetry",
@@ -11,41 +17,45 @@ const publications = [
     {
         title: "Whale Road Review",
         link: 'http://www.whaleroadreview.com/lopatin/',
-        content: '“Madaba”'
+        content: 'Madaba'
     },
     {
         title: "Spoon River Poetry Review",
         link: "http://srpr.org/currentIssue.php",
-        content: '“Fragments of a Prayer: III, V, VI”'
+        content: 'Fragments of a Prayer: III, V, VI'
     },
     {
         title: "EcoTheo",
         link: "https://archive.ecotheo.org/i-trend-toward-smallness/",
-        content: '“I tend toward smallness”'
+        content: 'I tend toward smallness'
     },
     {
         title: "Yalobusha Review",
         link: "https://yr.olemiss.edu/piece/lopatin/",
-        content: '“[in which the jackals show their faces], [in which i try to overcome]”'
+        content: '[in which the jackals show their faces], [in which i try to overcome]'
     },
     {
         title: "Tupelo Quarterly",
         link: "https://www.tupeloquarterly.com/fragments-of-a-prayer-i-ii-iv-by-aaron-lopatin/",
-        content: '“Fragments of a Prayer: I, II, IV”'
+        content: 'Fragments of a Prayer: I, II, IV'
     },
     {
         title: "Nat. Brut",
         link: "https://www.natbrut.com/aaron-lopatin",
-        content: '“Charity Vaunteth”'
+        content: 'Charity Vaunteth'
     },
     {
         title: "The Spectacle",
         link: "https://thespectacle.wustl.edu/?p=510",
-        content: '“The Rolling Gait: a Conversation with Cole Swensen”'
+        content: 'The Rolling Gait: a Conversation with Cole Swensen'
     },
 ]
 
 const teaching = [
+    {
+        title: 'English Composition I, New York City Collage of Technology',
+        content: '2022 - Present'
+    },
     {
         title: 'First Year Writing Seminar, College of Idaho',
         content: '2021 - 2022'
@@ -70,11 +80,11 @@ const teaching = [
 
 const honors = [
     {
-        title: '(semi-finalist) Verse / Tomaž Šalamun Prize, Factory Hollow Press',
+        title: '(Semi-Finalist) Verse / Tomaž Šalamun Prize, Factory Hollow Press',
         content: '2021'
     },
     {
-        title: '(finalist) Snowbound Chapbook Contest, Tupelo Press',
+        title: '(Finalist) Snowbound Chapbook Contest, Tupelo Press',
         link: 'https://www.tupelopress.org/2019/06/07/tupelo-press-announces-the-results-of-the-2019-snowbound-chapbook-award/',
         content: '2019'
     },

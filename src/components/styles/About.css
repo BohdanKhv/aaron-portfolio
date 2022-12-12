@@ -17,7 +17,6 @@
     cursor: pointer;
     min-height: 250px;
     transition-duration: var(--transition-duration);
-    border-radius: 0.5rem;
 }
 .about .image img:hover {
     box-shadow: 12px 12px 0 #ff9c9c;

@@ -10,8 +10,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-items">
                     <div className="footer-item">
-                        <a href="mailto:
-                        ">email.@gmail.com</a>
+                        <a href="mailto:aaronlopatin@gmail.com">aaronlopatin@gmail.com</a>
                     </div>
                     <div className="footer-item">
                         <Link to="/cat">
