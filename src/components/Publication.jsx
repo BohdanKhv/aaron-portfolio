@@ -36,9 +36,6 @@ const Publication = () => {
                                     <span>
                                         {item.content}
                                     </span>
-                                    {item.link &&
-                                    <small>click</small>
-                                    }
                                 </div>
                             </a>
                         </div>

@@ -17,7 +17,7 @@ const Cat = () => {
                 <div className="content cat-img">
                     <div className="cat-img-container">
                         <div className="meow">
-                            <span>Towns</span>
+                            <span>Townes</span>
                         </div>
                         <img src="/assets/cat-1.jpg" alt="cat 1" loading="lazy" style={{ boxShadow: '12px 12px 0 #FBEC5D' }}/>
                     </div>
@@ -29,7 +29,7 @@ const Cat = () => {
                     </div>
                     <div className="cat-img-container">
                         <div className="meow">
-                            <span>❤️ Aaron</span>
+                            <span>❤️</span>
                         </div>
                         <img src="/assets/cat-3.jpg" alt="cat 3" loading="lazy" style={{ boxShadow: '12px 12px 0 #ff9c9c' }}/>
                     </div>

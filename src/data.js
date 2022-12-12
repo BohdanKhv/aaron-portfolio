@@ -1,8 +1,8 @@
 const publications = [
     {
-        title: "Variations in a trapped expanse",
-        link: "https://www.interimpoetics.org/392-2",
-        content: "The Interim"
+        title: "Interim Poetics",
+        link: "https://www.interimpoetics.org/392/aaron-lopatin/",
+        content: "Variations in a trapped expanse"
     },
     {
         title: "Colorado Review",
@@ -12,7 +12,7 @@ const publications = [
     {
         title: "Apartment Poetry",
         link: "http://www.apartmentpoetry.com/",
-        content: 'http://www.apartmentpoetry.com/'
+        content: 'Wren (Invocation), Wren (Convocation), Wren (Revocation)'
     },
     {
         title: "Whale Road Review",
@@ -53,23 +53,23 @@ const publications = [
 
 const teaching = [
     {
-        title: 'English Composition I, New York City Collage of Technology',
+        title: 'English Composition I, New York City College of Technology (Adjunct Professor)',
         content: '2022 - Present'
     },
     {
-        title: 'First Year Writing Seminar, College of Idaho',
+        title: 'New England Literature Program, University of Michigan (Intermittent Lecturer)',
+        content: '2020 - Present'
+    },
+    {
+        title: 'First Year Writing Seminar, College of Idaho (Adjunct Professor)',
         content: '2021 - 2022'
     },
     {
-        title: 'New England Literature Program, University of Michigan',
-        content: '2020 - 2022'
-    },
-    {
-        title: 'Intermediate Poetry Writing, Boise State University',
+        title: 'Intermediate Poetry Writing, Boise State University (Graduate Instructor)',
         content: '2019 - 2021'
     },
     {
-        title: 'Introduction to Poetry Writing, Boise State University',
+        title: 'Introduction to Poetry Writing, Boise State University (Graduate Instructor)',
         content: '2018 - 2021'
     },
     {
@@ -90,7 +90,7 @@ const honors = [
     },
     {
         title: "Editor's Choice, Nat. Brut",
-        link: 'https://www.tupelopress.org/2019/06/07/tupelo-press-announces-the-results-of-the-2019-snowbound-chapbook-award',
+        link: 'https://www.natbrut.com/editors-choice-2019',
         content: '2019'
     }
 ]

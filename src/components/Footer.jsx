@@ -13,6 +13,13 @@ const Footer = () => {
                         <a href="mailto:aaronlopatin@gmail.com">aaronlopatin@gmail.com</a>
                     </div>
                     <div className="footer-item">
+                        <a
+                            href="https://www.instagram.com/lopatina92"
+                            target="_blank"
+                            rel="noreferrer"
+                        >Instagram</a>
+                    </div>
+                    <div className="footer-item">
                         <Link to="/cat">
                             Townes
                         </Link>
