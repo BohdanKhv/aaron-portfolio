@@ -7,7 +7,7 @@ const publications = [
     {
         title: "Colorado Review",
         link: "https://coloradoreview.colostate.edu/books/colorado-review-spring-2022/",
-        content: 'Wren Song #2 (Forthcoming)'
+        content: 'Wren Song #2'
     },
     {
         title: "Apartment Poetry",

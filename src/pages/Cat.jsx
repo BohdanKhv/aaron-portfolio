@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { Img } from '../components'
 import '../components/styles/Section.css'
 
 const Cat = () => {
@@ -19,19 +20,19 @@ const Cat = () => {
                         <div className="meow">
                             <span>Townes</span>
                         </div>
-                        <img src="/assets/cat-1.jpg" alt="cat 1" loading="lazy" style={{ boxShadow: '12px 12px 0 #FBEC5D' }}/>
+                        <Img img="/assets/cat-1.jpg" alt="cat 1" style={{ boxShadow: '12px 12px 0 #FBEC5D' }}/>
                     </div>
                     <div className="cat-img-container">
                         <div className="meow">
                             <span>...Meow</span>
                         </div>
-                        <img src="/assets/cat-2.jpg" alt="cat 2" loading="lazy" style={{ boxShadow: '12px 12px 0 #93ff9c' }}/>
+                        <Img img="/assets/cat-2.jpg" alt="cat 2" style={{ boxShadow: '12px 12px 0 #93ff9c' }}/>
                     </div>
                     <div className="cat-img-container">
                         <div className="meow">
                             <span>❤️</span>
                         </div>
-                        <img src="/assets/cat-3.jpg" alt="cat 3" loading="lazy" style={{ boxShadow: '12px 12px 0 #ff9c9c' }}/>
+                        <Img img="/assets/cat-3.jpg" alt="cat 3" style={{ boxShadow: '12px 12px 0 #ff9c9c' }}/>
                     </div>
                 </div>
             </div>

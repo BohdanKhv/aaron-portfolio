@@ -5,6 +5,7 @@ import About from "./About";
 import Teaching from "./Teaching";
 import Honors from "./Honors";
 import Footer from "./Footer";
+import Img from "./Img";
 
 export {
     Publication,
@@ -14,4 +15,5 @@ export {
     Teaching,
     Honors,
     Footer,
+    Img
 }
