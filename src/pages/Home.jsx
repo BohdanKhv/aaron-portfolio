@@ -4,7 +4,7 @@ import { About, Publication, Teaching, Honors, Footer } from "../components"
 const Home = () => {
 
   useEffect(() => {
-    document.title = 'Aaron Lopatin | Poet | Teacher'
+    document.title = 'Aaron Lopatin | Poet | Teacher | Portfolio'
   }, [])
 
   return (
